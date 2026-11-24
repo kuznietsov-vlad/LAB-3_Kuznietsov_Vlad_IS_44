@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    width: 80%; /* Ширина контейнера у відсотках */
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: #222;
+    font-size: 24px;
+}
+
+/* 1. Верхній блок Text (100%) */
+.header-text {
+    width: 100%;
+    height: 100px;
+    background-color: #6ea1d4;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* 2. Середній блок: ліва частина Img. (75%) */
+.content-img {
+    float: left;
+    width: 75%;
+    height: 320px;
+    background-color: #b7e188;
+    text-align: center;
+    line-height: 320px;
+}
+
+/* 2. Середній блок: права частина Text (25%) */
+.sidebar-text {
+    float: right;
+    width: 25%;
+    height: 320px;
+    background-color: #8ca868;
+    text-align: center;
+    line-height: 320px;
+}
+
+/* Очищення потоку після float */
+.clear {
+    clear: both;
+}
+
+/* 3. Нижній блок Img. (100%) */
+.footer-img {
+    width: 100%;
+    height: 110px;
+    background-color: #f7bdf0;
+    text-align: center;
+    line-height: 110px;
+}
+
+.nav-links {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: right;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+}
